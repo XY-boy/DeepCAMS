@@ -5,7 +5,7 @@
 This is the official implementation of our paper [Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.scitotenv.2022.157747) published on Science of The Total Environment (**STOTEN**).  
 
 ### The overall two-stage flowchart
- ![image](/img/network.png)
+ ![image](/img/flowchart.png)
  
  ### Quantitive results
  ![image](/img/res1png.png)
