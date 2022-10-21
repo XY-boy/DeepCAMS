@@ -23,7 +23,6 @@ This is the official implementation of our paper [Generating long-term (2003-202
  ## Environment
  * CUDA 10.0
  * pytorch 1.x
- * build [DCNv2](https://github.com/CharlesShang/DCNv2)
  
  ## Two Stage Training
 ```
