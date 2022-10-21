@@ -1,19 +1,23 @@
 # DeepCAMS
 # Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)
 ## Introuction
-This is the official implementation of our paper [Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.scitotenv.2022.157747) published on Science of The Total Environment (**STOTEN**).  
+This is the official implementation of our paper [Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.scitotenv.2022.157747) published on <u>Science of The Total Environment</u> (**STOTEN**).
 
+
+## Dataset Preparation
+ Please download our DeepCAMS from Zenodo: <a href="https://doi.org/10.5281/zenodo.6967082"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6967082.svg" alt="DOI"></a>
+ 
 ### The overall two-stage flowchart
- ![image](/img/flowchart.png)
+<img src="img/flowchart.png" alt="Flowchart" width="600"/>
  
  ### Temporal downscaling results
- ![image](/img/td.png)
+<img src="img/td.png" alt="Temporal Downscaling" width="600"/>
  
  ### Spatial Downscaling results
- ![image](/img/sd.png)
+<img src="img/sd.png" alt="Spatial Downscaling" width="600"/>
  
  ### In-situ Validation
- ![image](/img/eval.png)
+<img src="img/eval.png" alt="OpenAQ in-situ Validation" width="600"/>
  
  #### More details can be found in our paper!
  ## Environment
@@ -21,38 +25,16 @@ This is the official implementation of our paper [Generating long-term (2003-202
  * pytorch 1.x
  * build [DCNv2](https://github.com/CharlesShang/DCNv2)
  
- ## Dataset Preparation
- Please download our dataset from Zenodo: <a href="https://doi.org/10.5281/zenodo.6967082"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6967082.svg" alt="DOI"></a>
- 
- You can also train your dataset following the directory sturture below!
- 
-### Data directory structure
-trainset--  
-&emsp;|&ensp;train--  
-&emsp;&emsp;|&ensp;LR4x---  
-&emsp;&emsp;&emsp;| 000.png  
-&emsp;&emsp;&emsp;| ···.png  
-&emsp;&emsp;&emsp;| 099.png  
-&emsp;&emsp;|&ensp;GT---   
-&emsp;&emsp;|&ensp;Bicubic4x--- 
-
-testset--  
-&emsp;|&ensp;eval--  
-&emsp;&emsp;|&ensp;LR4x---  
-&emsp;&emsp;&emsp;| 000.png  
-&emsp;&emsp;&emsp;| ···.png  
-&emsp;&emsp;&emsp;| 099.png  
-&emsp;&emsp;|&ensp;GT---   
-&emsp;&emsp;|&ensp;Bicubic4x--- 
- 
  ## Two Stage Training
 ```
-python main.py
+python /T-SR/my_train.py
+python /S-SR/main_3x.py
 ```
 
 ## Test
 ```
-python eval.py
+python T-SR/test.py
+python S-SR/demo_3x.py
 ```
 
 ## Citation
