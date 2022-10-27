@@ -25,6 +25,7 @@ This is the official implementation of our paper [Generating long-term (2003-202
  * pytorch 1.x
  
  ## Two Stage Training
+ # Download the LR-HR paired Geso-CF data from [Google Drive](https://drive.google.com/drive/folders/1DjccGiyZHeBrivw-Xg-FN8MW3noOrGhF?usp=sharing)
 ```
 python /T-SR/my_train.py
 python /S-SR/main_3x.py
