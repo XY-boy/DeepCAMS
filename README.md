@@ -24,8 +24,12 @@ This is the official implementation of our paper [Generating long-term (2003-202
  * CUDA 10.0
  * pytorch 1.x
  
- ## Two Stage Training
- # Download the LR-HR paired Geso-CF data from [Google Drive](https://drive.google.com/drive/folders/1DjccGiyZHeBrivw-Xg-FN8MW3noOrGhF?usp=sharing)
+ ## Model Training
+ ### 1) For spatial downscaling
+ Download the LR-HR paired Geos-CF from [Google Drive](https://drive.google.com/drive/folders/1DjccGiyZHeBrivw-Xg-FN8MW3noOrGhF?usp=sharing)
+ ### 2) For temporal downscaling
+ Download the hourly Geos-CF from [Google Drive](https://drive.google.com/drive/folders/1Wr13Q_eQSkRCYZj8741pJ49A655QRQDd?usp=sharing)
+ ### 3) Two Stage Training
 ```
 python /T-SR/my_train.py
 python /S-SR/main_3x.py
