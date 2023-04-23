@@ -1,5 +1,5 @@
 # DeepCAMS (STOTEN 2022)
-### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](/img/XY-IF.pdf)
+### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](/img/DeepCAMS.pdf)
 
 PyTorch and MATLAB codes for "[Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.inffus.2023.03.021)", **Science of The Total Environment (STOTEN)**, 2022.
 
