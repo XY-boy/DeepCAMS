@@ -1,25 +1,17 @@
-# DeepCAMS
-# Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)
-## Introuction
-This is the official implementation of our paper [Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.scitotenv.2022.157747) published on <u>Science of The Total Environment</u> (**STOTEN**).
+# DeepCAMS (STOTEN 2022)
+### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](/img/XY-IF.pdf)
 
+PyTorch and MATLAB codes for "[Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://doi.org/10.1016/j.inffus.2023.03.021)", **Science of The Total Environment (STOTEN)**, 2022.
 
-## Dataset Preparation
- Please download our DeepCAMS from Zenodo: <a href="https://doi.org/10.5281/zenodo.6967082"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6967082.svg" alt="DOI"></a>
+[Yi Xiao](https://xy-boy.github.io/), Yuan Wang, [Qiangqiang Yuan*](http://qqyuan.users.sgg.whu.edu.cn/), [Jiang He](https://jianghe96.github.io/), and [Liangpei Zhang](http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html)<br>
+Wuhan University
+
+### 🌱2003-2020 Global Hourly 0.25° PM2.5 Dadaset🌱
+Please download from Zenodo: <a href="https://doi.org/10.5281/zenodo.6967082"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6967082.svg" alt="DOI"></a>
  
 ### The overall two-stage flowchart
 <img src="img/flowchart.png" alt="Flowchart" width="600"/>
  
- ### Temporal downscaling results
-<img src="img/td.png" alt="Temporal Downscaling" width="600"/>
- 
- ### Spatial Downscaling results
-<img src="img/sd.png" alt="Spatial Downscaling" width="600"/>
- 
- ### In-situ Validation
-<img src="img/eval.png" alt="OpenAQ in-situ Validation" width="600"/>
- 
- #### More details can be found in our paper!
  ## Environment
  * CUDA 10.0
  * pytorch 1.x
@@ -40,9 +32,19 @@ python /S-SR/main_3x.py
 python T-SR/test.py
 python S-SR/demo_3x.py
 ```
-
+### Temporal downscaling results
+<img src="img/td.png" alt="Temporal Downscaling" width="600"/>
+ 
+ ### Spatial Downscaling results
+<img src="img/sd.png" alt="Spatial Downscaling" width="600"/>
+ 
+ ### In-situ Validation
+<img src="img/eval.png" alt="OpenAQ in-situ Validation" width="600"/>
+ 
+ #### More details can be found in our paper!
+ 
 ## Citation
-If you find our work helpful, please consider to cite:  
+If you find our work helpful, please consider to cite it. Many thanks for your support!  
 ```
 @article{xiao2022generating,
   title={Generating a long-term (2003- 2020) hourly 0.25° global PM2. 5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)},
@@ -58,9 +60,3 @@ If you find our work helpful, please consider to cite:
 ## Acknowledgement
 Our work is built upon [XVFI](https://github.com/JihyongOh/XVFI) and [ABPN](https://github.com/Holmes-Alan/ABPN).  
 Thanks to the author for the awesome works!
-
-
-
- 
-
-
