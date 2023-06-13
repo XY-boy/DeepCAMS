@@ -42,11 +42,15 @@ python S-SR/demo_3x.py
 <img src="img/eval.png" alt="OpenAQ in-situ Validation" width="600"/>
  
  #### More details can be found in our paper!
- 
+
+## Contact
+If you have any questions or suggestions, feel free to contact me.  
+Email: xiao_yi@whu.edu.cn; Tel: (+86) 15927574475 (WeChat)
+
 ## Citation
-If you find our work helpful, please consider to cite it. Many thanks for your support!  
+If you find our work helpful in your research, please consider citing it. Many thanks for your support!  
 ```
-@article{xiao2022generating,
+@article{xiao2022deepcams,
   title={Generating a long-term (2003- 2020) hourly 0.25° global PM2. 5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)},
   author={Xiao, Yi and Wang, Yuan and Yuan, Qiangqiang and He, Jiang and Zhang, Liangpei},
   journal={Science of The Total Environment},
