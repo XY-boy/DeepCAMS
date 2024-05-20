@@ -1,4 +1,4 @@
-# DeepCAMS (STOTEN 2022)
+ # DeepCAMS (STOTEN 2022)
 ### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S1566253523001100) | 🖼️[**PDF**](/img/DeepCAMS.pdf)
 
 PyTorch and MATLAB codes for "[Generating long-term (2003-2020) hourly 0.25° global PM2.5 dataset via spatiotemporal downscaling of CAMS with deep learning (DeepCAMS)](https://www.sciencedirect.com/science/article/pii/S004896972204846X)", **Science of The Total Environment (STOTEN)**, 2022.
@@ -21,9 +21,9 @@ Please download from Zenodo: <a href="https://doi.org/10.5281/zenodo.6967082"><i
  
  ## Model Training
  ### 1) For spatial downscaling
- Download the LR-HR paired Geos-CF from [Google Drive](https://drive.google.com/drive/folders/1DjccGiyZHeBrivw-Xg-FN8MW3noOrGhF?usp=sharing)
+ Download the LR-HR paired Geos-CF from [Google Drive](https://drive.google.com/file/d/1jfEOPB9e8S22_8pOBu-HTwtayk39WqiF/view?usp=drive_link)
  ### 2) For temporal downscaling
- Download the hourly Geos-CF from [Google Drive](https://drive.google.com/drive/folders/1Wr13Q_eQSkRCYZj8741pJ49A655QRQDd?usp=sharing)
+ Download the hourly Geos-CF from [Google Drive](https://drive.google.com/file/d/1sDFbWbgNOJma8s28OcgS6ZZuGbiPjBLw/view?usp=drive_link)
  ### 3) Two-Stage Training
 ```
 python /T-SR/my_train.py
